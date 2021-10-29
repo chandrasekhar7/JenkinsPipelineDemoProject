@@ -20,7 +20,7 @@ stage('Compile')
 {
 steps{
 echo "Compiling the Project.........."
-bat "sh compile"
+sh "mvn compile"
 }
 }
 stage('Deploy') 
